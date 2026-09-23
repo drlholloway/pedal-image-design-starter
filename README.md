@@ -75,4 +75,9 @@ This rewrites everything in `templates/`. Change the layer list, safe margin or 
 
 ## License
 
-[CC0 1.0 Universal](LICENSE): these templates and tools are dedicated to the public domain. Use them for anything, personal or commercial, with no attribution required.
+[CC BY-SA 4.0](LICENSE). You're free to use, share and adapt these templates and tools for any purpose, including commercial, as long as you:
+
+- **give credit** to this project, and
+- **release your modified templates or tools under the same license**, so they stay free too.
+
+Artwork you create *using* the templates is yours, to license however you like. Share-alike covers changes to the templates themselves, not the pedal graphics you design with them.
