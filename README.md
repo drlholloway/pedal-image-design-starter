@@ -72,3 +72,7 @@ python3 tools/generate_templates.py
 ```
 
 This rewrites everything in `templates/`. Change the layer list, safe margin or sizes in the script, not in the SVGs.
+
+## License
+
+[CC0 1.0 Universal](LICENSE): these templates and tools are dedicated to the public domain. Use them for anything, personal or commercial, with no attribution required.
