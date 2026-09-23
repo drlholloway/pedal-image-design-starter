@@ -14,7 +14,7 @@ It contains correctly sized templates for the face, sides, ends and back of each
 
 ## Templates
 
-Every template is sized exactly to Tayda's UV-print artboard for that side, in millimetres. They live in `templates/<enclosure>/`, one file per side:
+Every template is sized exactly to Tayda's UV-print artboard for that side, in millimeters. They live in `templates/<enclosure>/`, one file per side:
 
 | File | Tayda side | What it is |
 |---|---|---|
@@ -50,7 +50,7 @@ Each template has these layers, bottom to top:
 | **Labels** | Knob and switch labels, jack markings | Yes |
 | **Holes** | Drill positions, so artwork doesn't land under a pot or jack | **No** |
 | **Knobs & Switches** | Knob and footswitch images for a rough preview of the finished pedal | **No** |
-| **Guides** (hidden) | Artboard edge, 3 mm safe area, centre lines | **No** |
+| **Guides** (hidden) | Artboard edge, 3 mm safe area, center lines | **No** |
 
 Each layer starts with a hidden `Placeholder (delete me)` outline. It's there because Affinity drops empty layers when it imports an SVG. Hidden objects aren't exported, so it's harmless, but you can delete it once the layer has real content.
 

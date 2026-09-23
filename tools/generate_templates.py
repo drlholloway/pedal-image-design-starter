@@ -9,7 +9,7 @@
 """Generate layered SVG design templates for each side of each pedal enclosure.
 
 Each SVG is sized exactly to Tayda's UV-print artboard for that side, in
-millimetres, and holds one named group per design layer. Open a template in
+millimeters, and holds one named group per design layer. Open a template in
 Affinity and save it as .afdesign / .aftemplate to get the layered starting point.
 
 Artboard sizes are transcribed from `tayda-uv sides <enclosure>`, which in turn
@@ -56,7 +56,7 @@ LAYERS = [
 ]
 
 SAFE_MARGIN_MM = 3.0
-GUIDE_COLOUR = "#00B4FF"
+GUIDE_COLOR = "#00B4FF"
 GUIDE_STROKE_MM = 0.2
 
 
@@ -86,15 +86,15 @@ def xml_escape(s):
 def guides(w, h):
     m = SAFE_MARGIN_MM
     stroke = (
-        f'fill="none" stroke="{GUIDE_COLOUR}" stroke-width="{fmt(GUIDE_STROKE_MM)}"'
+        f'fill="none" stroke="{GUIDE_COLOR}" stroke-width="{fmt(GUIDE_STROKE_MM)}"'
     )
     dashed = f'{stroke} stroke-dasharray="1 1"'
     return (
         f'    <rect id="Artboard-Edge" x="0" y="0" width="{fmt(w)}" height="{fmt(h)}" {stroke}/>\n'
         f'    <rect id="Safe-Area" x="{fmt(m)}" y="{fmt(m)}" '
         f'width="{fmt(w - 2 * m)}" height="{fmt(h - 2 * m)}" {dashed}/>\n'
-        f'    <line id="Vertical-Centre" x1="{fmt(w / 2)}" y1="0" x2="{fmt(w / 2)}" y2="{fmt(h)}" {dashed}/>\n'
-        f'    <line id="Horizontal-Centre" x1="0" y1="{fmt(h / 2)}" x2="{fmt(w)}" y2="{fmt(h / 2)}" {dashed}/>\n'
+        f'    <line id="Vertical-Center" x1="{fmt(w / 2)}" y1="0" x2="{fmt(w / 2)}" y2="{fmt(h)}" {dashed}/>\n'
+        f'    <line id="Horizontal-Center" x1="0" y1="{fmt(h / 2)}" x2="{fmt(w)}" y2="{fmt(h / 2)}" {dashed}/>\n'
     )
 
 
@@ -104,7 +104,7 @@ def placeholder(w, h):
     # the layer has real content.
     return (
         f'    <rect id="Placeholder" serif:id="Placeholder (delete me)" x="0" y="0" '
-        f'width="{fmt(w)}" height="{fmt(h)}" fill="none" stroke="{GUIDE_COLOUR}" '
+        f'width="{fmt(w)}" height="{fmt(h)}" fill="none" stroke="{GUIDE_COLOR}" '
         f'stroke-width="{fmt(GUIDE_STROKE_MM)}" style="display:none"/>\n'
     )
 

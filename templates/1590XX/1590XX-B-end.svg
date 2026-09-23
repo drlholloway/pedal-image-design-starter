@@ -22,7 +22,7 @@
   <g id="Guides" serif:id="Guides" inkscape:label="Guides" inkscape:groupmode="layer" style="display:none">
     <rect id="Artboard-Edge" x="0" y="0" width="112" height="32" fill="none" stroke="#00B4FF" stroke-width="0.2"/>
     <rect id="Safe-Area" x="3" y="3" width="106" height="26" fill="none" stroke="#00B4FF" stroke-width="0.2" stroke-dasharray="1 1"/>
-    <line id="Vertical-Centre" x1="56" y1="0" x2="56" y2="32" fill="none" stroke="#00B4FF" stroke-width="0.2" stroke-dasharray="1 1"/>
-    <line id="Horizontal-Centre" x1="0" y1="16" x2="112" y2="16" fill="none" stroke="#00B4FF" stroke-width="0.2" stroke-dasharray="1 1"/>
+    <line id="Vertical-Center" x1="56" y1="0" x2="56" y2="32" fill="none" stroke="#00B4FF" stroke-width="0.2" stroke-dasharray="1 1"/>
+    <line id="Horizontal-Center" x1="0" y1="16" x2="112" y2="16" fill="none" stroke="#00B4FF" stroke-width="0.2" stroke-dasharray="1 1"/>
   </g>
 </svg>
