@@ -10,6 +10,8 @@ Creating graphics for pedals is a daunting task, and this library / wiki is here
 
 It contains correctly sized templates for the face, sides, ends and back of each standard pedal enclosure. We assume you are using [Affinity](https://www.affinity.studio), a free graphic design tool available for multiple platforms, but the templates are plain SVG and open in any vector editor (Inkscape, Illustrator, ...).
 
+**📖 Guides and tutorials live in the [wiki](https://github.com/drlholloway/pedal-image-design-starter/wiki)**: getting started, designing in Affinity, printing with Tayda UV, and printing waterslide decals at home.
+
 ## Templates
 
 Every template is sized exactly to Tayda's UV-print artboard for that side, in millimetres. They live in `templates/<enclosure>/`, one file per side:
