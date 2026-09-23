@@ -5,7 +5,7 @@
 
 Creating graphics for pedals is a daunting task, and this library / wiki is here to help. It has tutorials and ready-made templates for designing pedal artwork that you can either:
 
-- convert to PDF for UV printing with the Tayda UV Converter Tool, or
+- convert to PDF for Tayda UV printing with [tayda-uv](https://github.com/drlholloway/tayda-uv-artwork-processor), or
 - print on an inkjet or laser printer, apply to a pre-drilled enclosure, and protect with lacquer or another clear coat.
 
 It contains correctly sized templates for the face, sides, ends and back of each standard pedal enclosure. We assume you are using [Affinity](https://www.affinity.studio), a free graphic design tool available for multiple platforms, but the templates are plain SVG and open in any vector editor (Inkscape, Illustrator, ...).
