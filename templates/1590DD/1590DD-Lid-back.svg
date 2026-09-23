@@ -24,5 +24,10 @@
     <rect id="Safe-Area" x="3" y="3" width="111" height="179" fill="none" stroke="#00B4FF" stroke-width="0.2" stroke-dasharray="1 1"/>
     <line id="Vertical-Center" x1="58.5" y1="0" x2="58.5" y2="185" fill="none" stroke="#00B4FF" stroke-width="0.2" stroke-dasharray="1 1"/>
     <line id="Horizontal-Center" x1="0" y1="92.5" x2="117" y2="92.5" fill="none" stroke="#00B4FF" stroke-width="0.2" stroke-dasharray="1 1"/>
+    <g id="Center-Mark" serif:id="Center Mark">
+      <line x1="56" y1="90" x2="61" y2="95" fill="none" stroke="#00B4FF" stroke-width="0.2"/>
+      <line x1="56" y1="95" x2="61" y2="90" fill="none" stroke="#00B4FF" stroke-width="0.2"/>
+    </g>
+    <text id="Center-Label" serif:id="Center Label" x="58.5" y="97.3" font-family="Helvetica, Arial, sans-serif" font-size="1.8" text-anchor="middle" fill="#00B4FF">(58.5, 92.5) mm</text>
   </g>
 </svg>

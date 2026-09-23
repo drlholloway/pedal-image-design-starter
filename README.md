@@ -50,7 +50,7 @@ Each template has these layers, bottom to top:
 | **Labels** | Knob and switch labels, jack markings | Yes |
 | **Holes** | Drill positions, so artwork doesn't land under a pot or jack | **No** |
 | **Knobs & Switches** | Knob and footswitch images for a rough preview of the finished pedal | **No** |
-| **Guides** (hidden) | Artboard edge, 3 mm safe area, center lines | **No** |
+| **Guides** (hidden) | Artboard edge, 3 mm safe area, center lines, and a center X for snapping the ruler origin | **No** |
 
 Each layer starts with a hidden `Placeholder (delete me)` outline. It's there because Affinity drops empty layers when it imports an SVG. Hidden objects aren't exported, so it's harmless, but you can delete it once the layer has real content.
 

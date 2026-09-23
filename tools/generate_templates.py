@@ -58,6 +58,8 @@ LAYERS = [
 SAFE_MARGIN_MM = 3.0
 GUIDE_COLOR = "#00B4FF"
 GUIDE_STROKE_MM = 0.2
+CENTER_MARK_MM = 5.0  # width and height of the center X on the Guides layer
+CENTER_LABEL_MM = 1.8  # text size of the center coordinates under the X
 
 
 def fmt(n):
@@ -95,6 +97,21 @@ def guides(w, h):
         f'width="{fmt(w - 2 * m)}" height="{fmt(h - 2 * m)}" {dashed}/>\n'
         f'    <line id="Vertical-Center" x1="{fmt(w / 2)}" y1="0" x2="{fmt(w / 2)}" y2="{fmt(h)}" {dashed}/>\n'
         f'    <line id="Horizontal-Center" x1="0" y1="{fmt(h / 2)}" x2="{fmt(w)}" y2="{fmt(h / 2)}" {dashed}/>\n'
+        f"{center_mark(w, h, stroke)}"
+        f"{center_label(w, h)}"
+    )
+
+
+def center_mark(w, h, stroke):
+    # A solid X whose lines cross at the exact center of the artboard, for
+    # snapping the ruler origin to. Both lines are centered on it, so the
+    # group's bounding-box center is the artboard center too.
+    cx, cy, r = w / 2, h / 2, CENTER_MARK_MM / 2
+    return (
+        f'    <g id="Center-Mark" serif:id="Center Mark">\n'
+        f'      <line x1="{fmt(cx - r)}" y1="{fmt(cy - r)}" x2="{fmt(cx + r)}" y2="{fmt(cy + r)}" {stroke}/>\n'
+        f'      <line x1="{fmt(cx - r)}" y1="{fmt(cy + r)}" x2="{fmt(cx + r)}" y2="{fmt(cy - r)}" {stroke}/>\n'
+        f"    </g>\n"
     )
 
 
@@ -106,6 +123,18 @@ def placeholder(w, h):
         f'    <rect id="Placeholder" serif:id="Placeholder (delete me)" x="0" y="0" '
         f'width="{fmt(w)}" height="{fmt(h)}" fill="none" stroke="{GUIDE_COLOR}" '
         f'stroke-width="{fmt(GUIDE_STROKE_MM)}" style="display:none"/>\n'
+    )
+
+
+def center_label(w, h):
+    # The center's position from the top-left corner, written under the X, so
+    # people know where the ruler origin will land before they drag it.
+    cx, cy = w / 2, h / 2
+    y = cy + CENTER_MARK_MM / 2 + CENTER_LABEL_MM + 0.5
+    return (
+        f'    <text id="Center-Label" serif:id="Center Label" x="{fmt(cx)}" y="{fmt(y)}" '
+        f'font-family="Helvetica, Arial, sans-serif" font-size="{fmt(CENTER_LABEL_MM)}" '
+        f'text-anchor="middle" fill="{GUIDE_COLOR}">({fmt(cx)}, {fmt(cy)}) mm</text>\n'
     )
 
 
