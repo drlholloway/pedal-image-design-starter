@@ -75,9 +75,11 @@ This rewrites everything in `templates/`. Change the layer list, safe margin or 
 
 ## License
 
-[CC BY-SA 4.0](LICENSE). You're free to use, share and adapt these templates and tools for any purpose, including commercial, as long as you:
+This project uses two licenses, both of which keep derivatives free:
 
-- **give credit** to this project, and
-- **release your modified templates or tools under the same license**, so they stay free too.
+- **Templates and documentation:** [CC BY-SA 4.0](LICENSE)
+- **The generator script (`tools/`):** [GPL-3.0-or-later](tools/LICENSE)
+
+You're free to use, share and adapt all of it for any purpose, including commercial, as long as you **give credit** to this project and **release your modified versions under the same license**.
 
 Artwork you create *using* the templates is yours, to license however you like. Share-alike covers changes to the templates themselves, not the pedal graphics you design with them.

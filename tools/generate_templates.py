@@ -1,4 +1,11 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Copyright (C) 2026 Lane Holloway
+#
+# This program is free software: you can redistribute it and/or modify it under
+# the terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later
+# version. See tools/LICENSE for the full text.
 """Generate layered SVG design templates for each side of each pedal enclosure.
 
 Each SVG is sized exactly to Tayda's UV-print artboard for that side, in
