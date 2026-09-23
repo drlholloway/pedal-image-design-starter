@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="90mm" height="115.5mm" viewBox="0 0 90 115.5">
+  <title>1590BB side A (90 x 115.5 mm)</title>
+  <g id="Base-Artwork" serif:id="Base Artwork" inkscape:label="Base Artwork" inkscape:groupmode="layer">
+    <rect id="Placeholder" serif:id="Placeholder (delete me)" x="0" y="0" width="90" height="115.5" fill="none" stroke="#00B4FF" stroke-width="0.2" style="display:none"/>
+  </g>
+  <g id="Accent-Artwork" serif:id="Accent Artwork" inkscape:label="Accent Artwork" inkscape:groupmode="layer">
+    <rect id="Placeholder" serif:id="Placeholder (delete me)" x="0" y="0" width="90" height="115.5" fill="none" stroke="#00B4FF" stroke-width="0.2" style="display:none"/>
+  </g>
+  <g id="Logos" serif:id="Logos" inkscape:label="Logos" inkscape:groupmode="layer">
+    <rect id="Placeholder" serif:id="Placeholder (delete me)" x="0" y="0" width="90" height="115.5" fill="none" stroke="#00B4FF" stroke-width="0.2" style="display:none"/>
+  </g>
+  <g id="Labels" serif:id="Labels" inkscape:label="Labels" inkscape:groupmode="layer">
+    <rect id="Placeholder" serif:id="Placeholder (delete me)" x="0" y="0" width="90" height="115.5" fill="none" stroke="#00B4FF" stroke-width="0.2" style="display:none"/>
+  </g>
+  <g id="Holes" serif:id="Holes" inkscape:label="Holes" inkscape:groupmode="layer">
+    <rect id="Placeholder" serif:id="Placeholder (delete me)" x="0" y="0" width="90" height="115.5" fill="none" stroke="#00B4FF" stroke-width="0.2" style="display:none"/>
+  </g>
+  <g id="Knobs-and-Switches" serif:id="Knobs &amp; Switches" inkscape:label="Knobs &amp; Switches" inkscape:groupmode="layer">
+    <rect id="Placeholder" serif:id="Placeholder (delete me)" x="0" y="0" width="90" height="115.5" fill="none" stroke="#00B4FF" stroke-width="0.2" style="display:none"/>
+  </g>
+  <g id="Guides" serif:id="Guides" inkscape:label="Guides" inkscape:groupmode="layer" style="display:none">
+    <rect id="Artboard-Edge" x="0" y="0" width="90" height="115.5" fill="none" stroke="#00B4FF" stroke-width="0.2"/>
+    <rect id="Safe-Area" x="3" y="3" width="84" height="109.5" fill="none" stroke="#00B4FF" stroke-width="0.2" stroke-dasharray="1 1"/>
+    <line id="Vertical-Centre" x1="45" y1="0" x2="45" y2="115.5" fill="none" stroke="#00B4FF" stroke-width="0.2" stroke-dasharray="1 1"/>
+    <line id="Horizontal-Centre" x1="0" y1="57.75" x2="90" y2="57.75" fill="none" stroke="#00B4FF" stroke-width="0.2" stroke-dasharray="1 1"/>
+  </g>
+</svg>
